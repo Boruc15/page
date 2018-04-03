@@ -1,0 +1,76 @@
+@media(max-width: 650px)
+{
+   
+    .slider img
+    {
+        height: 280px;
+    }
+    #boxes
+    {
+        height: 700px;
+    }
+    div.desc {
+        padding: 2px;
+        font-size: 10px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 600px) 
+{
+    #boxes
+    {   
+        margin-left: 0;
+        height: 700px;
+    }  
+    .navigation-toggle {
+        display:block;
+    }
+
+    nav ul {
+        margin-top:55px;
+        overflow: hidden;				
+        max-height:0;
+        transition:max-height 0.35s ease 0s;
+        -webkit-transition:max-height 0.35s ease 0s;
+        -moz-transition:max-height 0.35s ease 0s;
+    }
+
+    nav #input-toggle:checked + ul {
+        max-height:500px;
+    }
+
+    nav ul li {
+        border:0;
+        width:100%;
+        max-width: 100%;
+        min-width:0;
+        border-bottom:1px solid #333;
+
+    }
+
+    nav ul li a {
+        display: block;
+        text-align: center;
+    }
+}
+@media(max-width: 450px)
+{
+    #boxes
+    {
+        height: 750px;
+        width: 50px;
+    }
+    opis
+    {
+        height: 900px;
+    }
+    span.psw 
+    {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
