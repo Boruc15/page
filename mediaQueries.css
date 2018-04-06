@@ -1,6 +1,28 @@
+@media(max-width: 1055px)
+{
+    #boxes .box
+    {
+        display: block;
+        float:none;
+        text-align:center;
+        width:100%;
+        margin: 0;
+        padding: 0;
+    }
+    .sectOne
+    {
+        text-align: center;
+        padding: 4px 0px;
+    }
+    .sectOne img
+    {
+        width: 30px;
+        height: 70px;
+    }
+}
+
 @media(max-width: 650px)
 {
-   
     .slider img
     {
         height: 280px;
@@ -19,7 +41,6 @@
 {
     #boxes
     {   
-        margin-left: 0;
         height: 700px;
     }  
     .navigation-toggle {
@@ -58,7 +79,6 @@
     #boxes
     {
         height: 750px;
-        width: 50px;
     }
     opis
     {
